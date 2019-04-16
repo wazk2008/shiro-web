@@ -33,7 +33,7 @@ public class ShiroConf {
         shiroFilterFactoryBean.setFilterChainDefinitionMap(map);
 
 
-        return shiroFilterFactoryBean;
+        return shiroFilterFactoryBean;    
     }
 
     @Bean
