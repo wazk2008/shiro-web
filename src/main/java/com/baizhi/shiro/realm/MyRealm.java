@@ -24,8 +24,8 @@ public class MyRealm extends AuthorizingRealm {
         authorizationInfo.addStringPermission("user:add");
         authorizationInfo.addStringPermission("user:update");
         System.out.println("---------------------------");
-        System.out.println("---------------------------");
-        System.out.println("---------------------------");
+        System.out.println("+++++++++++++++++++++++++++");
+      
         return authorizationInfo;
     }
 //    认证
