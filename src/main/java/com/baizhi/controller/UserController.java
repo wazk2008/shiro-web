@@ -31,6 +31,7 @@ public class UserController {
     @RequestMapping("logout")
     public String logout(){
         System.out.println("退出失败");
+        System.out.println("退出失败");
         return null;
     }
 
